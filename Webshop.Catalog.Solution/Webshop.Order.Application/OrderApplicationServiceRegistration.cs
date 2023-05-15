@@ -1,12 +1,12 @@
 ﻿using MediatR;
-using Microsoft.Extensions.DependencyInjection;
 using System.Reflection;
-using Webshop.Application;
+using Microsoft.Extensions.DependencyInjection;
 using Webshop.Application.Contracts;
+using Webshop.Application;
 
-namespace Webshop.Customer.Application
+namespace Webshop.Order.Application
 {
-    public static class CustomerApplicationServiceRegistration
+    public static class OrderApplicationServiceRegistration
     {
         public static IServiceCollection AddCustomerApplicationServices(this IServiceCollection services)
         {
