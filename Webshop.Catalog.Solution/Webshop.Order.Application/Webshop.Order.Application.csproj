@@ -21,9 +21,4 @@
     <ProjectReference Include="..\Webshop.Customer.Application\Webshop.Customer.Application.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Features\GetOrders\" />
-    <Folder Include="Features\UpdateOrder\" />
-  </ItemGroup>
-
 </Project>
